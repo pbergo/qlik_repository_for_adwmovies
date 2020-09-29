@@ -1,0 +1,240 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 14,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "ADWMovies_Ratings.MOVIEID",
+    "qCardinal": 9724,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Ratings"
+    ]
+  },
+  {
+    "qName": "ADWMovies_Tags.DT",
+    "qCardinal": 3411,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Tags"
+    ]
+  },
+  {
+    "qName": "ADWMovies_Tags.DT_NEW",
+    "qCardinal": 983,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Tags"
+    ]
+  },
+  {
+    "qName": "ADWMovies_Tags.MOVIEID",
+    "qCardinal": 1572,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Tags"
+    ]
+  },
+  {
+    "qName": "DT",
+    "qCardinal": 85043,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Ratings"
+    ]
+  },
+  {
+    "qName": "DT_NEW",
+    "qCardinal": 25612,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Ratings"
+    ]
+  },
+  {
+    "qName": "GENRES",
+    "qCardinal": 20,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "GENRES"
+    ]
+  },
+  {
+    "qName": "IMDBID",
+    "qCardinal": 9742,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Links"
+    ]
+  },
+  {
+    "qName": "MOVIEID-USERID",
+    "qCardinal": 9829,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Links",
+      "ADWMovies_Movies",
+      "ADWMovies_Ratings",
+      "GENRES"
+    ]
+  },
+  {
+    "qName": "RATING",
+    "qCardinal": 10,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Ratings"
+    ]
+  },
+  {
+    "qName": "TAG",
+    "qCardinal": 1589,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Tags"
+    ]
+  },
+  {
+    "qName": "TITLE",
+    "qCardinal": 9737,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Movies"
+    ]
+  },
+  {
+    "qName": "TMDBID",
+    "qCardinal": 9733,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Links"
+    ]
+  },
+  {
+    "qName": "USERID",
+    "qCardinal": 610,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "ADWMovies_Ratings",
+      "ADWMovies_Tags"
+    ]
+  }
+]

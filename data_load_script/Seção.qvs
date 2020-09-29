@@ -1,0 +1,6 @@
+///$tab Seção
+GENRES:
+LOAD
+    MOVIEID,
+    SubField(GENRES,'|') as GENRES
+FROM [lib://Qlik Meetup:DataFiles/ADWMovies_Movies.qvd] (qvd);
